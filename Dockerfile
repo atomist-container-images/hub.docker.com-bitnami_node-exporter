@@ -91,6 +91,3 @@ FROM bitnami/node-exporter:1.3.1-debian-10-r83
 
 # Tags: 1.3.1-debian-10-r82
 FROM bitnami/node-exporter:1.3.1-debian-10-r82
-
-# Tags: 1.3.1-debian-10-r81
-FROM bitnami/node-exporter:1.3.1-debian-10-r81
