@@ -1,12 +1,21 @@
-# Tags: latest, 1.3.1-debian-10-r139, 1.3.1, 1-debian-10, 1
+# Tags: latest, 1.3.1-debian-10-r142, 1.3.1, 1-debian-10, 1
 FROM bitnami/node-exporter:latest
-FROM bitnami/node-exporter:1.3.1-debian-10-r139
+FROM bitnami/node-exporter:1.3.1-debian-10-r142
 FROM bitnami/node-exporter:1.3.1
 FROM bitnami/node-exporter:1-debian-10
 FROM bitnami/node-exporter:1
 
 # Tags: _
 FROM bitnami/node-exporter:_
+
+# Tags: 1.3.1-debian-10-r141
+FROM bitnami/node-exporter:1.3.1-debian-10-r141
+
+# Tags: 1.3.1-debian-10-r140
+FROM bitnami/node-exporter:1.3.1-debian-10-r140
+
+# Tags: 1.3.1-debian-10-r139
+FROM bitnami/node-exporter:1.3.1-debian-10-r139
 
 # Tags: 1.3.1-debian-10-r138
 FROM bitnami/node-exporter:1.3.1-debian-10-r138
@@ -82,15 +91,3 @@ FROM bitnami/node-exporter:1.3.1-debian-10-r115
 
 # Tags: 1.3.1-debian-10-r114
 FROM bitnami/node-exporter:1.3.1-debian-10-r114
-
-# Tags: 1.3.1-debian-10-r113
-FROM bitnami/node-exporter:1.3.1-debian-10-r113
-
-# Tags: 1.3.1-debian-10-r112
-FROM bitnami/node-exporter:1.3.1-debian-10-r112
-
-# Tags: 1.3.1-debian-10-r110
-FROM bitnami/node-exporter:1.3.1-debian-10-r110
-
-# Tags: 1.3.1-debian-10-r109
-FROM bitnami/node-exporter:1.3.1-debian-10-r109
